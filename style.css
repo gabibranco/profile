@@ -1,0 +1,54 @@
+body{
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #A20021;
+  background-color: rgba(255, 175, 240, 0.5);
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+body{
+  display: block;
+  margin: 8px;
+}
+
+.main-container{
+  width: 600px;
+  margin: 0 auto;
+}
+
+.card{
+  background-color: #EEC8E0;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+.img-circle {
+  border-radius:50%;
+}
+
+.list-inline{
+  padding-left:0;
+}
+
+.list-inline li{
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#movies p,
+#movies h3 {
+  margin: 20px;
+  text-align: left;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #DA2C38;
+}
