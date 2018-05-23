@@ -10,8 +10,15 @@
 
 </head>
 <body>
-    <div class="main-container">
-      <div class="card">
+  <div id="sidebar">
+    <ul class="list-inline" id="side-bar">
+      <li><a href="#summary"><i class="fas fa-home"></i></a></li><br><br>
+      <li><a href="#movies"><i class="fas fa-film"></i></a></li><br><br>
+      <li><a href="#about"><i class="fas fa-plus"></i></a></li>
+    </ul>
+  </div>
+    <div class="main-container" id="page-content">
+      <div class="card" id="summary">
         <img class="img-circle" src="images/profile.jpg" alt="Gabi Branco" style="width:200px;height:200px;">
 
         <h1>Gabi Branco</h1>
@@ -24,14 +31,14 @@
 
       <div class="card">
         <ul class="list-inline">
-          <li><i class="fab fa-instagram"></i> <a href="http://instagram.com/gabrielebranco" target="_blank">Instagram</a></li>
-          <li><i class="fab fa-github"></i> <a href="http://github.com/gabibranco" target="_blank">GitHub</a></li>
-          <li><i class="fab fa-facebook-f"></i> <a href="http://facebook.com/gabi.branco" target="_blank">Facebook</a></li>
-          <li><i class="fab fa-linkedin-in"></i> <a href="http://linkedin.com/in/gabrielebranco" target="_blank">LinkedIn</a></li>
+          <li><i class="fab fa-instagram"></i> <a href="http://instagram.com/gabrielebranco" target="_blank"><br>Instagram</a></li>
+          <li><i class="fab fa-github"></i> <a href="http://github.com/gabibranco" target="_blank"><br>GitHub</a></li>
+          <li><i class="fab fa-facebook-f"></i> <a href="http://facebook.com/gabi.branco" target="_blank"><br>Facebook</a></li>
+          <li><i class="fab fa-linkedin-in"></i> <a href="http://linkedin.com/in/gabrielebranco" target="_blank"><br>LinkedIn</a></li>
         </ul>
       </div>
 
-    <div class="card">
+    <div class="card" id="movies">
       <h2>My favorite movies</h2>
 
       <table id="movies">
@@ -66,7 +73,7 @@
     </div>
 
 
-    <div class="card">
+    <div class="card" id="about">
       <h2>About this page</h2>
       <ul class="list-inline">
         <li><i class="fas fa-heart"></i></li>
