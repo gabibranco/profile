@@ -27,11 +27,11 @@ body{
 }
 
 .img-circle {
-  border-radius:50%;
+  border-radius: 50%;
 }
 
 .list-inline{
-  padding-left:0;
+  padding-left: 0;
 }
 
 .list-inline li{
@@ -44,6 +44,10 @@ body{
 #movies h3 {
   margin: 20px;
   text-align: left;
+}
+
+#movies img {
+  border-radius: 10px;
 }
 
 h1,
